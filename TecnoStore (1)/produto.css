@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+    header {
+        background-color: rgba(0, 0, 0, 0.9);
+        color: #fff;
+        padding: 10px 0;
+    }
+    
+    nav .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        height: 50px;
+    }
+    
+    nav .menu-left h1 {
+        margin: 0;
+    }
+    
+    nav .menu-right ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    nav .menu-right ul li {
+        margin-left: 20px;
+    }
+    
+    nav .menu-right ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav .menu ul li {
+    margin: 0 1rem;
+}
+
+nav .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav .menu ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+.about h1, .contact h1, .products h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about p, .contact p, .products p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.filter {
+    margin-bottom: 1.5rem;
+}
+
+.products .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.products .product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+}
+
+.products .product-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.products .product-item h2 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.products .product-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.products .button-link button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.products .button-link button:hover {
+    background-color: #0056b3;
+}
+
+.cart {
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.cart h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart ul li {
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+}
+
+.produto-1{
+    background-size: cover;
+}
+
+.produto-2{
+    background-size: cover;
+    height: 200px;
+}
+
+.produto-3{
+    background-size: cover;
+}

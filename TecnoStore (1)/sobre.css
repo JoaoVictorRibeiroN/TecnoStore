@@ -1,0 +1,72 @@
+body {
+    font-family: Galliard BT;
+    margin: 0;
+    padding: 0;
+    background-color: #d1d1d1;
+}
+
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 1rem;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinha verticalmente ao centro */
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+nav .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav .menu ul li {
+    margin: 0 1rem;
+}
+
+nav .menu ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav .menu ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+

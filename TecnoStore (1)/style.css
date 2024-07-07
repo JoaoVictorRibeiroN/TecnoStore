@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('saad-chaudhry-PP1UkTDYJkc-unsplash.jpg');
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 50px;
+}
+
+nav .menu-left h1 {
+    margin: 0;
+}
+
+nav .menu-right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav .menu-right ul li {
+    margin-left: 20px;
+}
+
+nav .menu-right ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.nav-links {
+    display: flex; /* Cria um layout flexível */
+}
+
+.nav-links p {
+    margin: 0;
+    padding: 10px;
+}
+
+.ppp {
+    text-align: center;
+    color: #fff;
+    font-size: 75px;
+    font-weight: 75;
+    
+}
+
+button {
+    margin: 20px auto;
+    display: block;
+    width: 140px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgba(82, 82, 82, 0.3); /* Cor de fundo transparente */
+    border: 1px solid #ffffff; /* Borda preta */
+    color: #ffffff; /* Cor do texto preta */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+    border-radius: 10px;
+    }
+    
+    button:hover {
+        background-color: rgba(166, 166, 166, 0.5); /* Fundo um pouco mais opaco ao passar o mouse */
+        color: #fff; /* Cor do texto branca ao passar o mouse */
+    }
+
+
+.p1{
+    text-align: center;
+    color: #8c8c8c;
+    font-weight: bold;
+    font-size: 2.5em; /* Aumenta o tamanho da fonte */
+    color: white; /* Define a cor do texto como branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Adiciona espaçamento interno */
+    font-weight: bold; /* Deixa o texto em negrito */
+    margin: 20px auto; /* Adiciona margem e centraliza horizontalmente */
+    width: fit-content; /* Ajusta a largura ao conteúdo */
+    
+}
+
+.p1 span{
+    color: #414141;
+}
+
+footer {
+    color: #ffffff;
+    text-align: center;
+    padding: 7px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    margin-top: 50px;
+}
+
+.button-container {
+    text-align: center;
+    margin-bottom: 50px; /* Espaço para o botão não ficar colado no footer */
+    margin-top: 40px; /* Adiciona espaço acima do contêiner do botão */
+    padding: 175px;
+}
+
+.menu{
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li i {
+    margin-right: 5px;
+}
+
+h1.h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.p2{
+    color: #000000;
+    font-size: 20px;
+}
+
+.nav-link {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Define a cor do link para a cor herdada (normalmente a cor do texto ao redor) */
+}
+
+/* Estilos adicionais para hover e foco, se desejado */
+.nav-link:hover,
+.nav-link:focus {
+    text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse ou focar no link */
+    color: #5c5c5c; /* Cor do link ao passar o mouse ou focar, pode ser ajustada conforme necessário */
+}
+
+/* Estilo para remover marcação do link dentro da .button-container */
+.button-container .button-link {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Define a cor do link para a cor herdada */
+    display: inline-block; /* Garante que o link envolva corretamente o botão */
+}
+
+
